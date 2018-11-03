@@ -1,0 +1,347 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body, div, p, h1, h2, h3, h4, h5 img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #330003;
+  color: #fff;
+  font-family:  Helvetica , "Yu mincho", "YuMincho", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+a:hover {
+  color: #c69c6d !important;
+}
+
+
+ul {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0;
+}
+
+
+/*header*/
+.nav-link, .avbar-nav,.navbar-dark{
+	color: white !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-left: 100px !important;
+}
+
+.tel{
+	background: #791216;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+	margin-left: 30px;
+	padding: 4px 23px;
+	text-align:center;
+	width: 180px;
+  height: 80px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.tel a:visited {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.tel a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.tel a:active {
+  text-decoration: none;
+  color: white ;
+}
+
+.tel a:focus {
+  text-decoration: none ;
+  color: white !important;
+}
+
+.number {
+  font-size: 20px !important;
+}
+.sub {
+  display: block;
+  font-size: 12px;
+}
+
+.logo {
+  width: 142px;
+  height: 80px;
+}
+.logo img {
+  width: 100%;
+}
+
+
+/*TOP*/
+.menu-top {
+  height: 900px;
+  background-image: url(../images/harumaki.jpg);
+  background-size: cover;
+}
+
+.menu-top h1{
+  line-height: 57px;
+  font-size: 62px;
+  writing-mode: vertical-rl;
+  position: relative;
+  left: 1000px;
+  top: 100px;
+}
+
+.info {
+  width: 300px;
+  position: relative;
+  bottom: 200px;
+  left: 50px;
+}
+
+.info p {
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+
+
+/* menu base setting*/
+.higawari-menu, .other-menu {
+  text-align: center;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+}
+
+.notice {
+  font-size: 20px;
+}
+
+.title h1 {
+  color: #c8b48c;
+  border-bottom: solid 2px #c8b48c;
+  padding-bottom: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-content span {
+  color: red;
+}
+
+.menu-img {
+  width: 500px;
+  height: 350px;
+}
+
+.menu-content {
+  width: 600px;
+  padding: 20px 45px;
+}
+
+.menu-content p {
+  padding: 10px 0 20px;;
+  line-height: 26px;
+  text-align: left;
+}
+
+.menu-content h3, h4 {
+  color: #c8b48c;
+}
+
+/* menu-cards */
+.menu-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 1180px;
+  margin: auto;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #330003;
+  border: none;
+}
+
+.card p {
+  padding: 10px 0;
+  line-height: 26px;
+}
+
+
+.card h3 {
+  color: #c8b48c;
+  padding: 10px;
+  font-size: 23px;
+}
+
+.card h2 {
+  color: #dddfe2;
+  padding: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+.text td {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.text p {
+  padding-left: 20px;
+}
+
+/* other-menu */
+.other-menu {
+  position: relative;
+  top: 100px;
+}
+
+
+
+/* map */
+.map {
+  position: relative;
+  top: 150px;
+  height: 700px;
+  padding: 0;
+  text-align: center;
+}
+
+.map-inner iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.map h1 {
+  padding: 30px;
+  color: #c8b48c;
+  font-weight: 600;
+}
+
+/*Fotter*/
+footer {
+  height: 500px;
+  position: relative;
+  top: 200px;
+  background-color: #000B33;
+}
+
+.footer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+table {
+  margin: 10px;
+  width: 100%;
+}
+
+th {
+  padding-right: 20px;
+}
+
+
+.information h3 {
+  font-size: 20px;
+}
+
+.information th {
+  text-align: right;
+}
+
+.sns {
+  max-height: 400px;
+  padding-right: 10px;
+}
+
+.other-sns {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 130px;
+}
+
+.Facebook {
+  padding: 20px 0;
+}
+
+.line {
+  text-align: center;
+}
+
+.line-it-button {
+  width: 130px !important;
+  height: 40px !important;
+  padding: 10px;
+}
+
+.btnWrap {
+  padding: 10px !important;
+}
+
+.copyright {
+  background-color: #000B33;
+  font-size: 15px;
+  text-align: center;
+}

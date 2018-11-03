@@ -1,0 +1,507 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body, div, p, h1, h2, h3, h4, h5 img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #330003;
+  color: #fff;
+  text-align: center;
+  font-family:  Helvetica , "Yu mincho", "YuMincho", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+a:hover {
+  color: #c69c6d !important;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0;
+}
+
+.price {
+  color: red;
+}
+.notice {
+  font-size: 18px;
+  color: #c8b48c;
+  padding: 50px 0 20px;
+}
+
+
+/*header*/
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.nav-link, .navbar-nav,.navbar-dark{
+  color: #c8b48c !important;
+  background-color: #330003;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  position: relative; 
+}
+
+.nav-link::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #c8b48c;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.nav-link:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-left: 100px;
+}
+
+.tel{
+	background: #791216;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+	margin-left: 30px;
+	padding: 4px 23px;
+	text-align:center;
+	width: 180px;
+  height: 80px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.tel a:visited {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.tel a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.tel a:active {
+  text-decoration: none;
+  color: white ;
+}
+
+.tel a:focus {
+  text-decoration: none ;
+  color: white !important;
+}
+
+.number {
+  font-size: 20px !important;
+}
+.sub {
+  display: block;
+  font-size: 12px;
+}
+
+.logo {
+  width: 142px;
+  height: 80px;
+}
+.logo img {
+  width: 100%;
+}
+
+
+
+/*TOP*/
+.main {
+  height: 700px;
+}
+.top-img {
+  height: 700px;
+  background-image: url(../images/sumibi2.png);
+  background-size: cover;
+}
+
+.top-main {
+  width: 100%;
+  color: white;
+  text-align: start;
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  position: relative;
+  bottom: 560px;
+  right: 20%;
+}
+
+.top-main p {
+  line-height: 57px;
+  font-size: 20px;
+}
+
+/* menu */
+.menu {
+  padding: 50px 20px;
+}
+
+.regular-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+}
+
+.title {
+  padding: 30px;
+  color: #c8b48c;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subtitle {
+  color: #c8b48c;
+  font-weight: 600;
+  text-align: center;
+}
+
+.menu-cards {
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px 10px;
+}
+
+.menu-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.menu-discription {
+  padding: 20px 15px;
+}
+
+.menu-discription p {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu-name {
+  color: #c8b48c;
+  font-size: 27px;
+}
+
+.sumibi {
+  background-image: url("../images/sumibi.jpg");
+  background-size: 133%;
+  background-position: 31% 50%;
+}
+
+.sumibi-menu, .tataki-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.contents {
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+}
+
+.contents h2 {
+  color: #c8b48c;
+  font-weight: 600;
+}
+
+.contents p {
+  font-size: 19px;
+  width: 400px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  line-height: 36px;
+}
+
+.jump-to-menu {
+  text-align: center;
+}
+
+.menu-btn {
+  display: inline-block;
+  padding: 20px 50px;
+  margin: 20px;
+  text-decoration: none;
+  background: #B3000C;
+  color: #fff;
+  border: solid 1px #B3000C;
+  border-radius: 3px;
+}
+
+.menu-btn:hover {
+  text-decoration: none;
+  color: #B3000C !important;
+  background-color: #fff;
+  transition: .5s ease-in-out;
+}
+
+/* party-menu */
+.party-menu {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.party-menu img {
+  width: 700px;
+  height: 400px;
+  padding: 0 20px;
+}
+
+.party-menu-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu-lists {
+  margin: 50px;
+  width: 600px !important;
+  height: 300px;
+  color: #c8b48c;
+  background-color: rgba(242,242,242,0.1);
+}
+
+.menu-lists h3,h4 {
+  padding: 20px 10px;
+}
+
+.menu-list p {
+  line-height: 26px;
+  text-align: left;
+  padding: 0 70px;
+}
+
+/* tel-btn*/
+.btn-tel {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-tel a {
+  border: 2px solid #c8b48c;
+  color: #c8b48c;
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  height: 50px;
+  width: 500px;
+  padding: 5px 50px;
+}
+
+.btn-tel a ::before {
+  font-size: 16px;
+  content: "お問い合わせ・ご予約　";
+}
+
+.btn-tel a:hover {
+  text-decoration: none;
+  color: white !important;
+  background: #c8b48c;
+  transition: .5s ease-in-out;
+}
+
+
+/*intnerior*/
+.bottom-section {
+  position: relative;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+
+.interior {
+  display: flex;
+  flex-direction: row;
+}
+
+.inside img {
+  width: 100%;
+  padding: 10px;
+}
+
+.inside p {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* instagram */
+.instagram iframe {
+  width: 100% !important;
+}
+
+.instagram iframe html body {
+  background: rgba(0, 0, 0, 0); 
+}
+
+/* youtube */
+.PR {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.caption {
+  padding: 10px 0;
+  flex-direction: column;
+}
+
+.youtube {
+  text-align: center;
+  padding: 70px;
+}
+
+/* map */
+.map {
+  display: flex;
+  flex-direction: row;
+}
+
+.map p {
+  text-align: left;
+  line-height: 30px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.name{
+  background-color: #c69c6d;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #330003;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+/*Fotter*/
+footer {
+  padding: 20px 10px;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  background-color: #000B33;
+}
+
+.footer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+table {
+  margin: 10px;
+  width: 100%;
+}
+
+th {
+  padding-right: 20px;
+}
+
+
+.information h3 {
+  font-size: 20px;
+}
+
+.information th {
+  text-align: right;
+}
+
+.sns {
+  max-height: 400px;
+  padding: 10px;
+}
+
+.other-sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.line {
+  text-align: center;
+}
+
+.line-it-button {
+  width: 130px !important;
+  height: 40px !important;
+  padding: 10px;
+}
+
+.btnWrap {
+  padding: 10px !important;
+}
+
+.copyright {
+  background-color: #000B33;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+}

@@ -245,6 +245,18 @@ li {
   background-position: 31% 50%;
 }
 
+.tataki {
+  background-image: url("../images/tataki.jpg");
+  background-size: 100%;
+  background-position: 31% 50%;
+}
+
+.chicken-nanban {
+  background-image: url("../images/chicken_nanban.jpg");
+  background-size: 133%;
+  background-position: 31% 50%;
+}
+
 .sumibi-menu, .tataki-menu {
   display: flex;
   flex-direction: row;

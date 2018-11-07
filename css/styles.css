@@ -159,9 +159,11 @@ li {
   height: 700px;
 }
 .top-img {
+  margin-top: 50px;
   height: 700px;
   background-image: url(../images/sumibi2.png);
   background-size: cover;
+  background-position: 50% 28%;  
 }
 
 .top-main {
@@ -426,6 +428,7 @@ li {
 .map {
   display: flex;
   flex-direction: row;
+  padding-top: 100px;
 }
 
 .map p {

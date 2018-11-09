@@ -431,7 +431,7 @@ li {
   padding-top: 100px;
 }
 
-.map p {
+.map p , .map a{
   text-align: left;
   line-height: 30px;
 }

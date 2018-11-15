@@ -37,6 +37,17 @@
   .title {
     font-size: 28px;
   }
+  /* onlineshop */
+  .item {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+  }
 
   /* interior */
   .interior {
@@ -104,6 +115,8 @@
     font-size: 38px;
   }
 
+  
+
   /* interior */
   .interior {
     flex-direction: row; 
@@ -143,6 +156,18 @@
     margin: 10px;
     line-height: 36px;
   }
+
+  .item {
+    flex-direction: row;
+    padding: 30px;
+  }
+
+  .item img {
+    width: 200px;
+    height: 130px;
+    padding: 0;
+  }
+
 
   /* party-menu */
   .party-menu {

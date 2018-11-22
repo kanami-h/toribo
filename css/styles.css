@@ -161,7 +161,7 @@ li {
 .top-img {
   margin-top: 50px;
   height: 700px;
-  background-image: url(../images/course-menu7-min.JPG);
+  background-image: url(../images/course-menu7.JPG);
   background-size: cover;
   background-position: 50% 28%;  
 }
@@ -581,6 +581,10 @@ th {
     height: 500px;
   }
 
+  .top-img {
+    background-image: url(../images/course-menu7-min.jpg);
+  }
+
   /* 炭火menu */
   .sumibi-menu {
     flex-direction: column-reverse
@@ -672,6 +676,10 @@ th {
 @media(min-width: 768px) {
   .navbar-brand {
     margin-left: 30px !important;
+  }
+
+  .top-img {
+    background-image: url(../images/course-menu7.jpg);
   }
  
 

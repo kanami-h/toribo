@@ -85,6 +85,16 @@
 
 }
 
+@media(min-width: 411px) {
+  .items {
+    flex-flow: column;
+  }
+
+  .item {
+    width: 100%;
+  }
+}
+
 
 /* iPad */
 @media(min-width: 768px) {
@@ -113,6 +123,14 @@
 
   .title {
     font-size: 38px;
+  }
+
+  .items {
+    flex-flow: row wrap;
+  }
+  
+  .item {
+    width: 50%;
   }
 
   

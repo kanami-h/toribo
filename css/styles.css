@@ -308,42 +308,37 @@ li {
   transition: .5s ease-in-out;
 }
 
-/* party-menu */
+/* party menu */
 .party-menu {
-  position: relative;
-  top: 150px;
-  text-align: center;
-}
-
-.party-menu img {
-  width: 700px;
-  height: 400px;
-  padding: 0 20px;
-}
-
-.party-menu-inner {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+}
+
+.party-img{
+  width: 50%;
 }
 
 .menu-lists {
-  margin: 50px;
-  width: 600px !important;
-  height: 300px;
-  color: #c8b48c;
-  background-color: rgba(242,242,242,0.1);
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
 }
 
-.menu-lists h3,
-.menu-lists h4 {
-  padding: 20px 10px;
+.menu-list {
+  padding: 20px;
 }
 
+.menu-list h4,
 .menu-list p {
-  line-height: 26px;
+  color: #c8b48c;
+}
+
+.menu-list ul {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  padding: 0 70px;
+  padding: 20px 0; 
 }
 
 /* tel-btn*/
@@ -614,6 +609,22 @@ th {
   .title {
     font-size: 28px;
   }
+
+    /* party menu */
+  .party-menu {
+    flex-direction: column;
+  }
+
+  .party-img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .menu-lists {
+    justify-content: center;
+    flex-direction: column;
+  }
+
   /* onlineshop */
   .items {
     flex-flow: column;
@@ -709,6 +720,21 @@ th {
     width: 50%;
   }
 
+  /* party menu */
+  .party-menu {
+    flex-direction: column;
+  }
+
+  .party-img {
+    width: 100%;
+    padding: 20px 50px;
+  }
+
+  .menu-lists {
+    justify-content: center;
+    flex-direction: row;
+  }
+
   
 
   /* interior */
@@ -762,28 +788,21 @@ th {
     padding: 0;
   }
 
-
-  /* party-menu */
+  /* party menu */
   .party-menu {
-    top: 0;
+    flex-direction: row;
   }
 
-  .party-menu img {
-    padding: 0 20px;
-  }
-
-  .party-menu-inner {
-    flex-direction: column;
+  .party-img {
+    width: 50%;
+    padding: 0;
   }
 
   .menu-lists {
-    margin: 50px 194px 50px 230px;
+    justify-content: center;
   }
 
 
-  .menu-list p {
-    padding: 0 120px;
-  }
 
 }
 
@@ -796,30 +815,6 @@ th {
     font-size: 35px;
   }
 
-  .party-menu {
-    top: 150px;
-  }
-
-  .party-menu-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .menu-lists {
-    margin: 50px 20px 50px 50px;
-  }
-
-  .menu-list p {
-    padding: 0 70px;
-  }
-
-
-  /* footer */
-  /* footer {
-    height: 500px;
-  } */
-
   .footer__container {
     flex-wrap: nowrap;
     padding-top: 0px;
@@ -828,10 +823,6 @@ th {
 }
 
 @media(min-width: 1440px) {
-
-  .menu-list p {
-    padding: 0 100px;
-  }
 
 
 }

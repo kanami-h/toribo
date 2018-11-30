@@ -154,8 +154,9 @@ li {
 /*TOP*/
 .menu-top {
   height: 500px;
-  background-image: url(../images/drink-top.jpg);
+  background-image: url(../images/beer.jpg);
   background-size: cover;
+  background-position: 50%;
 }
 
 .menu-top h1{

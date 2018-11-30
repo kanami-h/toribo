@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="css/menu.css" />
     <!-- favicon -->
     <link rel="icon" href="images/favicon.png">
-    <script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&amp;subset=japanese" rel="stylesheet">    <!-- <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
     
       gtag('config', 'UA-129649421-1');
-    </script>
+    </script> -->
   </head>
   <body>
     <!-- navigation bar -->
@@ -41,7 +42,7 @@
             <a href="tel:0987589023">
               <span class="sub">ご予約・お問い合わせ</span>
               <span class="sub number">0987-58-9023</span>
-              <span class="sub">18:00～2:00　月曜定休</span>
+              <span class="sub">18:00～23:00　月曜定休</span>
             </a>
           </div>
         </div>
@@ -51,84 +52,199 @@
         <h1>お料理</h1>
       </div>
   <div class="container">
-      <div class="menu-jump-btns">
-        <a href="#main" class="menu-btn" >定番メニュー</a>
-        <a href="#kinitsu" class="menu-btn" >３９０均一</a>
-        <a href="#ippin" class="menu-btn" >一品料理</a>
-        <a href="#reisei" class="menu-btn" >冷製もの</a>
-        <a href="#karamen" class="menu-btn" >辛麺</a>
-        <a href="#rice" class="menu-btn" >ご飯もの</a>
-        <a href="#nabe" class="menu-btn" >鍋もの</a>
-        <a href="#dessert" class="menu-btn" >デザート</a>
-        <a href="#set-menu" class="menu-btn" >セットメニュー</a>
-      </div>
-
       <div class="menu-contents">
         <div id="main" class="main-menu">
           <div class="title">
-            <h1>人気メニューベスト5</h1>
+            <h1>人気メニュー</h1>
           </div>
-          <div class="menu">
-            <div class="ranking">
-              <div class="menu-content">
-                <h3>No.1 鶏の炭火焼　<span>790</span></h3>
-                <p>13年前、マスター（父）が脱サラしてとり坊を開き、とり坊の歴史が始まりました。ある日お客様に一言「マズイ！！」と言われて喧嘩になり、それならおいしい店に連れて行けと言ったのをきっかけに国富にあるお店を紹介され、それから修行を重ねて今のとり坊の炭火焼が完成しました。</p>
-                <h4>とり坊のこだわり</h4>
-                <p>南薩鷄の生肉しか使いませんので、冷えても美味しくお持ち帰りにも適しています。この鷄がないときも他の鷄や冷凍のものは使いません。</p>
+          <div class="menu-cards">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/sumibiyaki.jpg" alt="鶏の炭火焼">
               </div>
-              <div class="menu-img">
-                <img src="images/sumibi.jpg" alt="鶏の炭火焼">
-              </div>
+              <h3>鶏の炭火焼</h3>
+              <span class="price">200g ¥890 / 300g ¥1,090</span>
             </div>
+            <div class="card">
+                <div class="card-img">
+                  <img src="images/sumibiyaki.jpg" alt="セセリの炭火焼">
+                </div>
+                <h3>セセリの炭火焼</h3>
+                <span class="price">¥990</span>
+              </div>
+              <div class="card">
+                  <div class="card-img">
+                    <img src="images/tataki.jpg" alt="鶏のタタキ">
+                  </div>
+                  <h3>幻 鶏のタタキ</h3>
+                  <span class="price">¥690 / ハーフサイズ ¥490</span>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                      <img src="images/harumaki-k.jpg" alt="手作り生ハムと大葉のチーズ春巻き">
+                    </div>
+                    <h3>手作り生ハムと大葉のチーズ春巻き</h3>
+                    <span class="price">¥490</span>
+                  </div>
+                  <div class="card">
+                      <div class="card-img">
+                        <img src="images/chicken-nanban-k.jpg" alt="チキン南蛮">
+                      </div>
+                      <h3>チキン南蛮</h3>
+                      <span class="price">¥590</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                          <img src="images/aburi-embimayo-k.jpg" alt="炙りエビマヨ">
+                        </div>
+                        <h3>炙りエビマヨ 5個</h3>
+                        <span class="price">¥590</span>
+                      </div>
           </div> <!-- menu -->
-
-          <div class="bottom-main-menu">
-            <div class="smenu">
-              <div class="card">
-                <div class="card-img">
-                  <img src="images/sumibi3.jpg" alt="鶏の炭火焼">
-                </div>
-                <h3>No.2 セセリの炭火焼</h3>
-                <span class="price">890</span>
-                <p>筋肉のコリコリした首部分をジューシーに焼き上げました。</p>
-              </div>
-            </div>
-
-            <div class="smenu">
-              <div class="card">
-                <div class="card-img">
-                  <img src="images/tataki.png" alt="鶏のタタキ">
-                </div>
-                <h3>No.3　-幻- 鶏のタタキ</h3>
-                <span class="price">590</span>
-                <p>ハーフサイズ　<span>490</span><br>自家製の特製ダレでお召し上がりください。</p>
-              </div>
-            </div>
-
-            <div class="smenu">
-              <div class="card">
-                <div class="card-img">
-                  <img src="images/chicken_nanban.jpg" alt="チキン南蛮">
-                </div>
-                <h3>No.4 チキン南蛮</h3>
-                <span class="price">590</span>
-                <p>チキン南蛮が大好きなオーナーが研究を重ねて作りました。手作りタルタルソースがうまい！！</p>
-              </div>
-            </div>
-
-            <div class="smenu">
-              <div class="card">
-                <div class="card-img">
-                  <img src="images/sumibi3.jpg" alt="石焼きたまとろりん">
-                </div>
-                <h3>No.5 石焼きたまとろりん</h3>
-                <span class="price">590</span>
-                <p>特製卵焼き<br>ニラ or ネギ or 両方ミックス<br>味つけ：甘め、普通、ダシのみ<br>から選べます。</p>
-              </div>
-            </div>
-
-          </div><!-- bottom-menu -->
         </div> <!-- #main -->
+        <div id="sumibiyaki" class="sumibi-menu">
+            <div class="title">
+              <h1>自慢の炭火焼</h1>
+            </div>
+            <div class="menu-cards">
+              <div class="card">
+                <div class="card-img">
+                  <img src="images/harami.jpg" alt="鶏ハラミの炭火焼">
+                </div>
+                <h3>鶏ハラミの炭火焼</h3>
+                <span class="price right">¥880</span>
+              </div>
+              <div class="card">
+                <h3 class="left">ヤゲン軟骨の炭火焼</h3>
+                <span class="price right">¥680</span>
+              </div>
+              <div class="card">
+                <h3 class="left">鶏テールの炭火焼</h3>
+                <span class="price right">¥580</span>
+              </div>
+          </div>　<!-- #sumibiyaki  -->
+
+          <div id="teppanyaki" class="teppanyaki-menu">
+              <div class="title">
+                <h1>鉄板焼き</h1>
+              </div>
+              <div class="menu-cards">
+                <div class="card">
+                  <h3 class="left">塩ホルモン鉄板焼き</h3>
+                  <span class="price right">¥880</span>
+                </div>
+                <div class="card">
+                  <h3 class="left">セセリ塩ダレ鉄板焼き</h3>
+                  <span class="price right">¥880</span>
+                </div>
+            </div>　<!-- #sumibiyaki  -->
+  
+
+        <div id="rice" class="rice-menu">
+            <div class="title">
+              <h1>ごはんもの</h1>
+            </div>
+            <div class="menu-cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/onigiri-ume-k.jpg" alt="おにぎり">
+                      </div>
+                  <h3 class="left">おにぎり1個（梅、明太、シャケ）</h3>
+                  <span class="price right">¥200</span>
+                </div>
+              <div class="card">
+                <h3 class="left">とり坊チャーハン</h3>
+                <span class="price right">¥580</span>
+              </div>
+                <div class="card">
+                <h3 class="left">ご飯</h3>
+                <p class="right">大盛り　<span class="price">¥200</span></p>
+                <p class="right">普通　<span class="price">¥100</span></p>
+              </div>
+              <div class="card">
+                <h3 class="left">焼きおにぎり1個</h3>
+                <span class="price right">¥150</span>
+              </div>
+              <div class="card">
+                <h3 class="left">茶漬け（梅、明太、シャケ）</h3>
+                <span class="price right">¥300</span>
+              </div>
+              <div class="card">
+                <h3 class="left">キッズプレート</h3>
+                <span class="price right">¥680</span>
+              </div>
+            </div>
+          </div>　<!-- #rice  -->
+
+          <div id="ippin" class="ippin-menu">
+              <div class="title">
+                <h1>一品料理</h1>
+              </div>
+              <div class="menu-cards">
+                <div class="card">
+                    <h3 class="left">特上赤身の馬刺し（カナダ産）</h3>
+                    <span class="price right">¥1,290</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">馬刺しタテガミ</h3>
+                    <span class="price right">¥1,390</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">馬刺し盛り</h3>
+                    <span class="price right">¥1,980</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">生ハムとアボガドの生春巻き</h3>
+                    <span class="price right">¥790</span>
+                </div>
+                <div class="card">わさび枝豆</h3>
+                    <span class="price right">¥320</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">砂ずりのみそ漬け</h3>
+                    <span class="price right">¥320</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">ごま塩キューリ</h3>
+                    <span class="price right">¥320</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">うま塩キャベツ</h3>
+                    <span class="price right">¥320</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">たこのカルパッチョ</h3>
+                    <span class="price right">¥690</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">鶏皮ポン酢</h3>
+                    <span class="price right">¥490</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">冷ややっこ</h3>
+                    <span class="price right">¥290</span>
+                </div>
+                <div class="card">ホタチャンジャ</h3>
+                    <span class="price right">¥290</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">韓国風冷ややっこ</h3>
+                    <span class="price right">¥390</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">やみつきキューリ</h3>
+                    <span class="price right">¥320</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">やみつきキャベツ</h3>
+                    <span class="price right">¥320</span>
+                </div>
+                <div class="card">
+                    <h3 class="left">アボカドスライス</h3>
+                    <span class="price right">¥490</span>
+                </div>
+              </div>
+            </div>
 
         <div id="kinitsu" class="kinitsu-menu">
           <div class="title">
@@ -136,84 +252,45 @@
           </div>
           <div class="menu-cards">
             <div class="card">
-              <div class="card-img">
-                <img src="images/sumibi3.jpg" alt="鶏の炭火焼">
-              </div>
-              <h3><span>数量限定！</span>カツオのお刺身</h3>
-              <span class="price">¥390</span>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="images/sumibi3.jpg" alt="鶏の炭火焼">
-              </div>
-              <h3>牛スジ煮込み</h3>
-              <span class="price">¥390</span>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="images/sumibi3.jpg" alt="鶏の炭火焼">
-              </div>
-              <h3>豚軟骨トロトロ煮</h3>
-              <span class="price">¥390</span>
-            </div>
-            <div class="card">
-              <div class="card-img">
-                <img src="images/sumibi3.jpg" alt="鶏の炭火焼">
-              </div>
               <h3>生ハムとカマンベールチーズ</h3>
               <span class="price">¥390</span>
             </div>
             <div class="card">
-              <h3 class="left">カニクリームコロッケ（２ケ）</h3>
-              <span class="price right">¥390</span>
+                <h3 class="left">カニクリームコロッケ（2ケ）</h3>
+                <span class="price right">¥390</span>
             </div>
             <div class="card">
-                <h3 class="left">ピリ辛ウインナー（４本）</h3>
+                <h3>鶏皮ギョーザ（4ケ）</h3>
+                <span class="price">¥390</span>
+              </div>
+            <div class="card">
+              <h3>チキンナゲット（8ケ）</h3>
+              <span class="price">¥390</span>
+            </div>
+            <div class="card">
+                <h3 class="left">あらびきウインナー（３本）</h3>
                 <span class="price right">¥390</span>
+            </div>
+            <div class="card">
+                <h3>揚げ出し豆腐</h3>
+                <span class="price">¥390</span>
               </div>
               <div class="card">
-                  <h3 class="left">ちょっと長めのあらびきウインナー（３本）</h3>
-                  <span class="price right">¥390</span>
+                  <h3>大根の天ぷら</h3>
+                  <span class="price">¥390</span>
                 </div>
-                <div class="card">
-                  <h3 class="left">バグダン（ニンニク、ごま油）</h3>
-                  <span class="price right">¥390</span>
-                </div>
-           
+              <div class="card">
+                <h3>砂ずりネギ塩炒め</h3>
+                <span class="price">¥390</span>
+              </div>
+            <div class="card">
+              <h3>豚軟骨トロトロ煮</h3>
+              <span class="price">¥390</span>
+            </div>
           </div><!-- menu-cards -->
         </div><!-- #kinitsu -->
 
-        <div id="ippin" class="ippin-menu">
-          <div class="title">
-            <h1>一品料理</h1>
-          </div>
-          <div class="menu-cards">
-            <div class="card">
-                <h3 class="left">焼きナス（１本）</h3>
-                <span class="price right">¥190</span>
-            </div>
-            <div class="card">
-                <h3 class="left">焼きナス（１本）</h3>
-                <span class="price right">¥190</span>
-            </div>
-            <div class="card">
-                <h3 class="left">焼きナス（１本）</h3>
-                <span class="price right">¥190</span>
-            </div>
-            <div class="card">
-                <h3 class="left">焼きナス（１本）</h3>
-                <span class="price right">¥190</span>
-            </div>
-            <div class="card">
-                <h3 class="left">焼きナス（１本）</h3>
-                <span class="price right">¥190</span>
-            </div>
-            <div class="card">
-                <h3 class="left">焼きナス（１本）</h3>
-                <span class="price right">¥190</span>
-            </div>
-          </div>
-        </div>
+
 
         <div id="reisei" class="reisei-menu">
           <div class="title">
@@ -287,42 +364,7 @@
             </div>
           </div><!-- #karamen -->
 
-          <div id="rice" class="rice-menu">
-            <div class="title">
-              <h1>ごはんもの</h1>
-            </div>
-            <div class="menu-cards">
-              <div class="card">
-                <h3 class="left">とり坊チャーハン</h3>
-                <span class="price right">¥590</span>
-              </div>
-                <div class="card">
-                <h3 class="left">ご飯</h3>
-                <p class="right">大　<span class="price">¥200</span></p>
-                <p class="right">小　<span class="price">¥100</span></p>
-              </div>
-              <div class="card">
-                <h3 class="left">おにぎり1個（梅、明太）</h3>
-                <span class="price right">¥200</span>
-              </div>
-              <div class="card">
-                <h3 class="left">焼きおにぎり1個</h3>
-                <span class="price right">¥150</span>
-              </div>
-              <div class="card">
-                <h3 class="left">特製塩茶漬け</h3>
-                <span class="price right">¥390</span>
-              </div>
-              <div class="card">
-                <h3 class="left">茶漬け（梅、明太、塩昆布）</h3>
-                <span class="price right">¥300</span>
-              </div>
-              <div class="card">
-                <h3 class="left">みそ汁</h3>
-                <span class="price right">¥100</span>
-              </div>
-            </div>
-          </div>　<!-- #rice  -->
+          
 
           <div id="nabe" class="nabe-menu">
             <div class="title">

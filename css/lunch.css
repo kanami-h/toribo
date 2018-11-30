@@ -12,7 +12,7 @@ body, div, p, h1, h2, h3, h4, h5 img {
 body {
   background-color: #330003;
   color: #fff;
-  font-family:  Helvetica , "Yu mincho", "YuMincho", sans-serif;
+  font-family:  Helvetica , 'Noto Serif JP', sans-serif;
 }
 
 img {

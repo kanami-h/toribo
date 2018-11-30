@@ -13,7 +13,7 @@ body {
   background-color: #330003;
   color: #fff;
   text-align: center;
-  font-family:  Helvetica , "Yu mincho", "YuMincho", sans-serif;
+  font-family:  Helvetica , 'Noto Serif JP', sans-serif;
 }
 
 img {
@@ -167,26 +167,6 @@ li {
   font-size: 57px;
 }
 
-/* Jump Buttons */
-.menu-jump-btns {
-  width: 50%;
-  position: relative;
-  top: 50px;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.menu-btn {
-  padding: 20px;
-  transition: .4s;
-}
-
-.menu-btn:hover {
-  text-decoration: none;
-}
-
 /* menu */
 .menu-contents {
   text-align: center;
@@ -203,18 +183,6 @@ li {
   color: #c8b48c;
   padding-bottom: 10px;
   margin: 30px;
-}
-
-.ranking {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 50px 0;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
 }
 
 .menu-content span {

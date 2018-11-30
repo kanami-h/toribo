@@ -615,9 +615,14 @@ th {
     font-size: 28px;
   }
   /* onlineshop */
+  .items {
+    flex-flow: column;
+  }
+
   .item {
     flex-direction: column;
     padding: 30px 10px;
+    width: 100%;
   }
 
   .item img {
@@ -660,16 +665,6 @@ th {
     flex-direction: column;
   }
 
-}
-
-@media(min-width: 411px) {
-  .items {
-    flex-flow: column;
-  }
-
-  .item {
-    width: 100%;
-  }
 }
 
 

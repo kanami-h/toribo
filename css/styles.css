@@ -823,6 +823,8 @@ th {
 }
 
 @media(min-width: 1440px) {
-
+  .map iframe {
+    height: 500px;
+  }
 
 }

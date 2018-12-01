@@ -316,6 +316,7 @@ li {
 
 .party-img{
   width: 50%;
+  padding: 0 50px;
 }
 
 .menu-lists {
@@ -795,7 +796,7 @@ th {
 
   .party-img {
     width: 50%;
-    padding: 0;
+    padding: 0 20px;
   }
 
   .menu-lists {
@@ -817,7 +818,7 @@ th {
 
   .footer__container {
     flex-wrap: nowrap;
-    padding-top: 0px;
+    padding-top: 20px;
   }
 
 }

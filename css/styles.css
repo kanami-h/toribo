@@ -183,9 +183,25 @@ li {
   font-size: 20px;
 }
 
+.news {
+  background-color: rgb(72, 72, 72);
+}
+
+.news p {
+  padding: 10px 20px;
+  text-align: left;
+}
 /* menu */
 .menu {
   padding: 50px 20px;
+}
+
+.duration {
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 2s;
+  animation-fill-mode: both;
 }
 
 .regular-menu {

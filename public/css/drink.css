@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body, div, p, h1, h2, h3, h4, h5 img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #330003;
+  color: #fff;
+  font-family:  Helvetica , 'Noto Serif JP', sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+a:hover {
+  color: #c69c6d !important;
+}
+
+
+ul {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+.container {
+  padding: 50px;
+  max-width: 1440px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+
+/*header*/
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.nav-link, .avbar-nav,.navbar-dark{
+  color: #c8b48c !important;
+  background-color: #330003;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  position: relative; 
+}
+
+.nav-link::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #c8b48c;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.nav-link:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-left: 100px;
+}
+
+.tel{
+	background: #791216;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+	margin-left: 30px;
+	padding: 4px 23px;
+	text-align:center;
+	width: 180px;
+  height: 80px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.tel a:visited {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.tel a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.tel a:active {
+  text-decoration: none;
+  color: white ;
+}
+
+.tel a:focus {
+  text-decoration: none ;
+  color: white !important;
+}
+
+.number {
+  font-size: 20px !important;
+}
+.sub {
+  display: block;
+  font-size: 12px;
+}
+
+.logo {
+  width: 142px;
+  height: 80px;
+}
+.logo img {
+  width: 100%;
+}
+
+/*TOP*/
+.menu-top {
+  height: 500px;
+  background-image: url(../images/beer.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.menu-top h1{
+  font-size: 57px;
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+
+.title h1 {
+  color: #c8b48c;
+  padding-bottom: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+/* menulist */
+.drinklist {
+  line-height: 35px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.drink-items {
+  padding: 20px;
+}
+
+.drink-items h3{
+  padding-top: 20px 0 10px;
+  border-bottom: 1px dotted #c8b48c;
+  color: #c8b48c;
+  margin-bottom: 20px;
+}
+
+.drink-items h4 {
+  padding: 10px 0;
+  color: #c8b48c;
+}
+
+.drink-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blank {
+  padding-bottom: 30px; 
+}
+
+
+/* non-alcohol */
+.non-alcohol {
+  position: relative;
+  top: 150px;
+}
+
+/* softdrink */
+.softdrink {
+  position: relative;
+  top: 300px;
+
+}
+
+/*Fotter*/
+footer {
+  padding: 50px 20px 10px;
+  height: 250px;
+  position: relative;
+  top: 50px;
+  background-color: #000B33;
+  text-align: center;
+}
+
+.footer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* tel-btn*/
+.btn-tel {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.btn-tel a {
+  border: 2px solid #c8b48c;
+  color: #c8b48c;
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  height: 50px;
+  padding: 5px 50px;
+}
+
+.btn-tel a ::before {
+  font-size: 16px;
+  content: "お問い合わせ・ご予約　";
+}
+
+.btn-tel a:hover {
+  text-decoration: none;
+  color: white !important;
+  background: #c8b48c;
+  transition: .5s ease-in-out;
+}
+
+.other-sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.copyright {
+  background-color: #000B33;
+  font-size: 15px;
+}
+
+@media(min-width: 320px) {
+  .container {
+    padding: 30px;
+  }
+  
+  .navbar-brand {
+    margin-left: 0px;
+  }
+
+  .menu-contents {
+    padding: 10px;
+  }
+
+  .menu-content, .menu-img {
+    width: 100%;
+  }
+
+  .menu-content h3,
+  .menu-content h4 {
+    font-size: 1.25rem;
+  }
+
+  .ranking {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .title h1 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    height: 350px;
+    padding: 20px 20px 10px;
+  }
+
+  .adress {
+    padding: 20px 0;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .sns {
+    padding: 20px;
+  }
+
+  .btn-tel {
+    padding: 25px 0;
+  }
+
+  .btn-tel a {
+    font-size: 13px;
+    padding: 11px 9px;
+  }
+}
+
+@media(min-width: 768px) {
+  .navbar-brand {
+    margin-left: -1 !important;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .title h1 {
+    font-size: 2.5rem;
+  }
+
+  .ranking {
+    flex-direction: row;
+  }
+
+  .menu-contents {
+    padding: 40px;
+  }
+
+  .menu-content p {
+    font-size: 13px;
+  }
+
+  .btn-tel a {
+    font-size: 16px;
+    padding: 11px 20px;
+  }
+
+  footer {
+    height: 250px; 
+  }
+
+  .footer__container {
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 1024px) {
+  .nav-link {
+    font-size: 16px; 
+  }
+}

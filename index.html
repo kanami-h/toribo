@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
     integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <!-- CSS -->
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="./src/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <!-- favicon -->
   <link rel="icon" href="images/favicon.png">
@@ -39,15 +39,16 @@
 <body>
   <!-- navigation bar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed">
-    <a href="index.html" class="navbar-brand logo"><img class="lazyestload" src="images/logo-red.png" alt="二代目とり坊"></a>
+    <a href="index.html" class="navbar-brand logo"><img class="lazyestload" src="./src/images/logo-red.png"
+        alt="二代目とり坊"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item"><a href="index.html" class="nav-link">TOP</a></li>
-        <li class="nav-item"><a href="menu.html" class="nav-link">お料理</a></li>
-        <li class="nav-item"><a href="drink.html" class="nav-link">ドリンク</a></li>
+        <!-- <li class="nav-item"><a href="menu.html" class="nav-link">お料理</a></li> -->
+        <!-- <li class="nav-item"><a href="drink.html" class="nav-link">ドリンク</a></li> -->
         <!-- <li class="nav-item"><a href="#" class="nav-link">辛麺ランチ</a></li> -->
         <li class="nav-item"><a href="#access" class="nav-link">アクセス</a></li>
         <li class="nav-item"><a href="tel:0987589023" class="d-none d-sm-block d-md-none d-sm-none d-block nav-link"><i
@@ -76,6 +77,11 @@
     <p class="duration fadeInRightBig delay-4s">テイクアウト・配達受付中！</p>
   </div>
   <div class="container">
+
+    <h1 class="title">テイクアウト・お持ち帰りメニュー</h1>
+    <div class="takeout">
+      <img src="./src/images/takeout.jpg" alt="" srcset="">
+    </div>
     <div class="menu">
       <div class="regular-menu">
         <h1 class="title">定番料理</h1>
@@ -104,54 +110,54 @@
         </div>
 
       </div>
-      <div class="jump-to-menu">
+      <!-- <div class="jump-to-menu">
         <a href="menu.html" class="menu-btn">そのほかのメニューはこちら</a>
-      </div>
+      </div> -->
     </div>
 
-    <div class="party">
-      <h1 class="title">忘年会・新年会のご予約受付中</h1>
-      <div class="party-menu">
-        <div class="party-img">
-          <img class="lazyestload" src="images/nomihodai.JPG" alt="二代目コース3500円〜（飲み放題2時間付）">
+    <!-- <div class="party"> -->
+    <!-- <h1 class="title">忘年会・新年会のご予約受付中</h1> -->
+    <!-- <div class="party-menu"> -->
+    <!-- <div class="party-img">
+        <img class="lazyestload" src="images/nomihodai.JPG" alt="二代目コース3500円〜（飲み放題2時間付）">
+      </div>
+      <div class="menu-lists">
+        <div class="menu-list">
+          <h4>二代目コース</h4>
+          <p>3500円（飲み放題2時間付）</p>
+          <ul>
+            <li>うま塩キャベツ</li>
+            <li>韓国風チョレギサラダ</li>
+            <li>鶏のタタキ</li>
+            <li>鶏の炭火焼</li>
+            <li>ポテトフライ</li>
+            <li>プロプリ海老マヨ</li>
+            <li>チキン南蛮</li>
+            <li>辛麺</li>
+          </ul>
         </div>
-        <div class="menu-lists">
-          <div class="menu-list">
-            <h4>二代目コース</h4>
-            <p>3500円（飲み放題2時間付）</p>
-            <ul>
-              <li>うま塩キャベツ</li>
-              <li>韓国風チョレギサラダ</li>
-              <li>鶏のタタキ</li>
-              <li>鶏の炭火焼</li>
-              <li>ポテトフライ</li>
-              <li>プロプリ海老マヨ</li>
-              <li>チキン南蛮</li>
-              <li>辛麺</li>
-            </ul>
-          </div>
-          <div class="menu-list">
-            <h4>女子会コース</h4>
-            <p>2700円（飲み放題2時間付）</p>
-            <ul>
-              <li>韓国風チョレギサラダ</li>
-              <li>鶏のタタキ</li>
-              <li>鶏の炭火焼</li>
-              <li>プロプリ海老マヨ</li>
-              <li>チキン南蛮</li>
-              <li>辛麺 or トマト辛麺</li>
-              <li>アイスクリーム</li>
-            </ul>
-          </div>
+        <div class="menu-list">
+          <h4>女子会コース</h4>
+          <p>2700円（飲み放題2時間付）</p>
+          <ul>
+            <li>韓国風チョレギサラダ</li>
+            <li>鶏のタタキ</li>
+            <li>鶏の炭火焼</li>
+            <li>プロプリ海老マヨ</li>
+            <li>チキン南蛮</li>
+            <li>辛麺 or トマト辛麺</li>
+            <li>アイスクリーム</li>
+          </ul>
         </div>
-
       </div>
 
     </div>
 
+  </div>
 
-    <!-- intnerior -->
-    <div class="bottom-section">
+
+  <!-- intnerior -->
+    <!-- <div class="bottom-section">
       <h1 class="title">お店の雰囲気</h1>
       <div class="interior">
         <div class="inside">
@@ -169,8 +175,9 @@
       </div>
       <div class="btn-tel">
         <a href="tel:0987589023"><span>0987-58-9023</span></a>
-      </div>
-    </div><!-- bottom-section -->
+      </div> 
+    </div> -->
+    <!-- bottom-section -->
 
     <!-- <div class="instagram">
         <h3 class="title">Instagram</h3>
@@ -206,7 +213,7 @@
 
     </div>
   </div>
-  <div class="onlineshop">
+  <!-- <div class="onlineshop">
     <h1 class="title">とり坊の炭火焼をご自宅でも。地方発送いたします</h1>
     <div class="items">
       <div class="item">
@@ -235,8 +242,7 @@
         <img class="lazyestload" src="images/sumibiyaki.jpg" alt="お持ち帰り用鶏の炭火焼">
         <div class="item-discription">
           <h4 class="item-title">鶏テールの炭火焼　<span class="price">¥1,290</span></h4>
-          <!-- <p>人気No.1の地鶏をご自宅でお召し上がり頂けるよう真空パックにしました。</p>
-                      <p>ビールとの相性抜群です！</p> -->
+       
           <div class="settlement">
             <a href="https://toribo.thebase.in/items/15098767"><button>販売ページへ</button></a>
           </div>
@@ -246,8 +252,7 @@
         <img class="lazyestload" src="images/sumibiyaki.jpg" alt="セセリの炭火焼">
         <div class="item-discription">
           <h4 class="item-title">セセリの炭火焼　<span class="price">¥1,500</span></h4>
-          <!-- <p>人気No.1の地鶏をご自宅でお召し上がり頂けるよう真空パックにしました。</p>
-                        <p>ビールとの相性抜群です！</p> -->
+          
           <div class="settlement">
             <a href="https://toribo.thebase.in/items/15098732"><button>販売ページへ</button></a>
           </div>
@@ -257,16 +262,14 @@
         <img class="lazyestload" src="images/sumibiyaki.jpg" alt="軟骨の炭火焼">
         <div class="item-discription">
           <h4 class="item-title">軟骨の炭火焼　<span class="price">¥1,290</span></h4>
-          <!-- <p>人気No.1の地鶏をご自宅でお召し上がり頂けるよう真空パックにしました。</p>
-                        <p>ビールとの相性抜群です！</p> -->
+      
           <div class="settlement">
             <a href="https://toribo.thebase.in/items/15098789"><button>販売ページへ</button></a>
           </div>
         </div>
       </div>
     </div>
-    <!--items-->
-  </div>
+  </div> -->
   <!--onlineshop-->
 
   <footer>

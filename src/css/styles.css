@@ -791,6 +791,9 @@ th {
     padding: 0;
   }
 
+  .takeout img {
+    width: 50%;
+  }
   /* .menu p {
     padding-top: 2px;
   } */
